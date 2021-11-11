@@ -8,7 +8,7 @@ import javax.persistence.ManyToOne;
 
 import org.apache.catalina.User;
 import org.hibernate.annotations.CreationTimestamp;
-import org.springframework.lang.NonNull;
+import javax.validation.constraints.NotNull;
 
 @Entity
 public class TweetEnitity {
