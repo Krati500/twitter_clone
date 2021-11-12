@@ -6,12 +6,11 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
-import org.apache.catalina.User;
 import org.hibernate.annotations.CreationTimestamp;
 import javax.validation.constraints.NotNull;
 
 @Entity
-public class TweetEnitity {
+public class TweetEntity {
 	@Id
 	private Integer id;
 	
@@ -23,7 +22,4 @@ public class TweetEnitity {
 	
 	@NotNull
 	private String content;
-	
-	
-  
 }
